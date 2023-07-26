@@ -1,0 +1,122 @@
+.homeScreen {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(90deg, #fff 0%, #FFE346 50%);
+}
+
+.phrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.phrase-img {
+  width: 30%;
+}
+
+.homescreen-img {
+  width: 50%;
+}
+
+.text-content {
+  background-color: #fff;
+  width: 80%;
+  padding: 15px;
+  border-radius: 25px;
+  padding-top: 25px;
+}
+
+p {
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.phrase p {
+  font-size: 20px;
+}
+
+.text-content p {
+  margin: 15px;
+  text-align: justify;
+  text-indent: 25px;
+  color: #002F6C;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.partners {
+  margin-top: 75px;
+  padding: 15px;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoHome {
+  width: 120px;
+  height: 120px;
+  margin: 15px;
+}
+
+.nacional {
+  width: 180px;
+}
+
+@media(max-width:850px){
+
+  .homeScreen {
+    margin-top: 80px;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .phrase-img {
+    display: none;
+  }
+
+  .homescreen-img {
+    order: 1;
+    width: 100%;
+  }
+
+  .phrase {
+    width: 100%;
+    order: 2;
+  }
+
+  .text-content {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  p {
+    color: #002F6C;
+    text-align: justify;
+    text-indent: 25px;
+  }
+
+  footer {
+    display: flex;
+    position: absolute;
+    bottom: -800px;
+  }
+
+}

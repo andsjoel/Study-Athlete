@@ -1,0 +1,188 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #fff 0%, #FFE346 50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-text {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px 0 50px 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #002F6C;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.541);
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #6c9bd8;
+  color: white;
+  text-align: center;
+}
+
+.homescreen-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 22px;
+  margin-right: 22px;
+  color: #002F6C;
+}
+
+.login-form ::-webkit-input-placeholder {
+  color: white;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.scroll-down-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  width: 435px;
+  background-color: #fff;
+  border-radius: 0 0 50px 0;
+}
+
+.scroll-down-button .arrow-down {
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.scroll-down-button span {
+  margin-top: 5px;
+}
+
+.study {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 45px;
+  color: #002F6C;
+  position: relative;
+}
+
+.athlete {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 30px;
+  color: #FFE346;
+  text-shadow: 2px 2px #002F6C;
+  position: relative;
+  left: -22px;
+  top: -15px;
+}
+
+.scroll-down-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #007bff;
+  border: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.scroll-down-button:hover {
+  border: 2px solid white;
+  background-color: #007bff;
+  color: white;
+  transition: 0.5s;
+}
+
+.scroll-down-button .arrow-down {
+  border: solid #007bff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.scroll-down-button span {
+  margin-top: 5px;
+}
+
+.site-content {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.link-to-welcome {
+  text-decoration: none;
+  color: #002F6C;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-weight: 600;
+  font-size: 25x;
+}
+
+@media(max-width:850px){
+
+  .homescreen-text {
+    text-align: center;
+  }
+  
+  .welcome-text {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    padding: 15px;
+  }
+  
+  .login-form {
+    border-radius: 25px;
+  }
+  
+  .login-form input {
+    text-align: center;
+  }
+  
+  .homescreen-text {
+    margin-left: -8px;
+  }
+  
+  .scroll-down-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .scroll-down-button span {
+    margin-left: -38px;
+  }
+
+}

@@ -1,0 +1,121 @@
+.text-box-rotina {
+  margin-left: 120px;
+  background-color: #fff;
+  padding: 12px;
+}
+
+.text-rotina {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-rotina p {
+  text-align: justify;
+  text-indent: 25px;
+  color: #002F6C;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 25px;
+  font-size: 19px;
+}
+
+.title-rotina {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 30px;
+  color: #002F6C;
+  text-transform: uppercase;
+}
+
+.spam {
+  width: 500px;
+}
+
+.p1 {
+  width: 50%;
+}
+.img-rotina {
+  width: 300px;
+}
+
+.img1-rotina {
+  margin-top: -70px;
+}
+
+.p2 {
+  color: white;
+  width: 50%;
+}
+
+.p3, .p4 {
+  background-color: #72CC96;
+  margin: 12px;
+  width: 80%;
+  padding: 18px;
+  border-radius: 25px;
+}
+
+@media(max-width:850px){
+
+  .text-box-rotina {
+    margin: 0;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 12px;
+  }
+  
+  .text-rotina {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-rotina p {
+    text-align: justify;
+    text-indent: 25px;
+    color: #002F6C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+    font-size: 19px;
+  }
+  
+  .title-rotina {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    color: #002F6C;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .spam {
+    display: none;
+  }
+  
+  .p1 {
+    width: 100%;
+  }
+  .img-rotina {
+    width: 100%;
+  }
+  
+  .img1-rotina {
+    display: none;
+  }
+  
+  .p2 {
+    color: white;
+    width: 100%;
+  }
+  
+  .p3, .p4 {
+    background-color: #72CC96;
+    margin: 12px;
+    width: 100%;
+    padding: 18px;
+    border-radius: 25px;
+  }
+
+}

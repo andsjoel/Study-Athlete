@@ -1,0 +1,14 @@
+.profile-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, #fff 0%, #FFE346 50%);
+  padding-top: 30px;
+}
+
+.profile-box {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}

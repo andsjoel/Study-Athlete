@@ -1,0 +1,85 @@
+.list-rotinas {
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-rotinas {
+  background-color: #72CC96;
+  width: 14%;
+  min-height: 580px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+table {
+  padding: 10px;
+}
+
+.sub-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+.sub-title p:nth-child(1) {
+  width: 50%;
+}
+
+.rotina {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid #002F6C;
+}
+
+.rotina1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.rotina1 p {
+  color: #002F6C;
+}
+
+.rotina1 p:nth-child(1) {
+  width: 50%;
+}
+
+.rotina2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rotina2 p {
+  width: 90%;
+  height: 60px;
+  color: #002F6C;
+  text-align: justify;
+}
+
+.rotina2 button {
+  width: 25px;
+  height: 25px;
+  color: red;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rotina2 button:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.3);
+}

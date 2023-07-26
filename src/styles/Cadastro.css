@@ -1,0 +1,165 @@
+.cadastro-screen {
+  background-color: #72CC96;
+  width: 80%;
+  height: 100vh;
+  margin-left: 120px;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cadastro-screen h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 30px;
+  color: #FFE346;
+  text-shadow: 2px 2px #002F6C;
+  margin-bottom: 15px;
+}
+
+.cadastro-screen form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-screen input,
+.cadastro-screen select {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #002F6C;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro-screen input[type="submit"] {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cadastro-screen input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff0000;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #002F6C;
+}
+
+.form-group ::-webkit-input-placeholder {
+  color: #002F6C;
+  font-weight: bold;
+}
+
+@media(max-width:850px){
+
+  .cadastro-screen {
+    margin: 0;
+    background-color: #72CC96;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cadastro-screen h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    color: #FFE346;
+    text-shadow: 2px 2px #002F6C;
+    margin-bottom: 15px;
+  }
+  
+  .cadastro-screen form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cadastro-screen input,
+  .cadastro-screen select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #002F6C;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cadastro-screen input[type="submit"] {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cadastro-screen input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #ff0000;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #002F6C;
+  }
+  
+  .form-group ::-webkit-input-placeholder {
+    color: #002F6C;
+    font-weight: bold;
+  }
+
+}
