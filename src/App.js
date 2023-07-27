@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { AuthProvider } from './contexts/AuthContext';
 import { UserProvider } from './contexts/UserContext';
 import RoutineContextProvider from './contexts/RotinasContext';
@@ -12,13 +12,13 @@ function App() {
     <AuthProvider>
       <UserProvider>
         <RoutineContextProvider>
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route path="/" element={ <Home /> } />
               <Route path="/welcome" element={ <WelcomePage /> } />
               <Route path="/profile" element={ <Profile /> } />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </RoutineContextProvider>
       </UserProvider>
     </AuthProvider>

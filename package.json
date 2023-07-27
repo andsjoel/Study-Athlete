@@ -1,6 +1,6 @@
 {
+  "homepage": "https://andsjoel.github.io/Study-Athlete/",
   "name": "study_athlete",
-  "homepage": "https://andsjoel.github.io/Study-Athlete",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
